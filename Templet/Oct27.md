@@ -31,11 +31,14 @@ using namespace std;
 #define sqr(x) ((x)*(x))
 #define pb push_back
 #define NOO puts("-1"),0
+#define BE(x) (a).begin(),(a).end()
 
 typedef long long ll;
 typedef double db;
 typedef vector<int> VI;
 typedef vector<VI> MT;
+typedef vector<double> VD;
+typedef vector<
 struct ii
 {
 	int x,y;
@@ -74,9 +77,10 @@ template<class T>void ptn(T x)
 {
 	pt(x);putchar('\n');
 }
-template<class T>void pp(T x,int y)
+template<class v>void pp(v x,int y)
 {
-	pt(x);putchar(" \n	"[y]);
+	static char ch[]={" \n"};
+	pt(x);putchar(ch[y]);
 }
 template<class T>void PP(T *x,int y)
 {
@@ -85,7 +89,7 @@ template<class T>void PP(T *x,int y)
 template<class T>void Max(T &x,T y){if(x<y)x=y;}
 template<class T>void Min(T &x,T y){if(x>y)x=y;}
 
-/*	template ends here	*/
+/* template ends here  */
 
 int main()
 {
