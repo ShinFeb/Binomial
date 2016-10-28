@@ -1,8 +1,8 @@
-# Markdown is nice.
-埋个伏笔：
-这里比logdown快一点。
-
-```cpp
+/*
+	Markdown is nice.
+	埋个伏笔：
+	这里比logdown快一点。
+*/
 #include <cstdio>
 #include <cstring>
 #include <algorithm>
@@ -98,4 +98,3 @@ int main()
 	
 	return 0;
 }
-```
