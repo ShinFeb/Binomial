@@ -3,7 +3,6 @@
 	造数据的时候发现我的BigInt清空的不规范。举个例子，求和部分会调用>=len的部分，如果之前没清空就乱了。
 	但对单组数据是不会有影响的。
 */
-
 #include <cstdio>
 #include <cstring>
 #include <algorithm>
