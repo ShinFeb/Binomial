@@ -1,4 +1,3 @@
-```cpp
 struct MAP
 {
 	static const int MOD=200000000;
@@ -26,4 +25,3 @@ struct MAP
 		ecnt=0;
 	}
 }; 
-```
