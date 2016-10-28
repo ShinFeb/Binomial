@@ -1,7 +1,6 @@
 /*
 	Markdown is nice.
-	埋个伏笔：
-	这里比logdown快一点。
+	埋个伏笔：这里比logdown快一点。
 */
 #include <cstdio>
 #include <cstring>
