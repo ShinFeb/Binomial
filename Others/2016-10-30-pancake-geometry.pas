@@ -1,3 +1,7 @@
+/*
+	BZOJ 2472 Pancake
+	梁健楠
+*/
 var
     N,i,j,ans:longint;
     a:array[0..110]of longint;
