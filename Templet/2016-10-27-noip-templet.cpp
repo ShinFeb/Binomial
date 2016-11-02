@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <string>
 #include <iostream>
+#include <cstdlib>
 #include <cmath>
 #include <ctime>
 #include <cctype>
@@ -27,17 +28,14 @@ using namespace std;
 #define per(i,s,t) for(int i=(t)-1,i##_=s;i>=i##_;--i)
 #define inf (1<<30)
 #define INF (1LL<<62)
-#define sqr(x) ((x)*(x))
 #define pb push_back
 #define NOO puts("-1"),0
-#define BE(x) (a).begin(),(a).end()
+#define ALL(x) (a).begin(),(a).end()
+#define SZ(x) (int)(x).size()
 
 typedef long long ll;
+typedef unsigned long long ull;
 typedef double db;
-typedef vector<int> VI;
-typedef vector<VI> MT;
-typedef vector<double> VD;
-typedef vector<string> VS;
 struct ii
 {
 	int x,y;
@@ -47,6 +45,13 @@ struct ii
 	ii friend operator+(ii a,ii b){return ii(a.x+b.x,a.y+b.y);}
 	ii friend operator-(ii a,ii b){return ii(a.x-b.x,a.y-b.y);}
 };
+
+typedef vector<int> VI;
+typedef vector<VI> MT;
+typedef vector<double> VD;
+typedef vector<string> VS;
+typedef vector<long long>VLL;
+typedef vector<ii> VII;
  
 //ll memory freopen
 
